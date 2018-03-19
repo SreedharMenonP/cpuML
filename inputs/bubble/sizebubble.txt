@@ -1,0 +1,30 @@
+a.out  :
+section                 size      addr
+.interp                   28       568
+.note.ABI-tag             32       596
+.note.gnu.build-id        36       628
+.gnu.hash                 28       664
+.dynsym                  288       696
+.dynstr                  216       984
+.gnu.version              24      1200
+.gnu.version_r            64      1224
+.rela.dyn                336      1288
+.init                     23      1624
+.plt                      16      1648
+.plt.got                  48      1664
+.text                    882      1712
+.fini                      9      2596
+.rodata                   10      2608
+.eh_frame_hdr             76      2620
+.eh_frame                332      2696
+.init_array                8   2100664
+.fini_array                8   2100672
+.jcr                       8   2100680
+.dynamic                 448   2100688
+.got                     112   2101136
+.data                     16   2101248
+.bss                 4000032   2101280
+.comment                  45         0
+Total                4003125
+
+
