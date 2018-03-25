@@ -12,7 +12,7 @@ with open("heaptimes.txt","r") as file1,open ("sizeheap.txt","r") as file2:
 				list2.append(int(splitline[1]))
 	#print(list2)
 	file2.close()
-	with open('data.csv', 'a',newline='') as fp:
+	with open('data2.csv', 'a',newline='') as fp:
 		a = csv.writer(fp,delimiter=",")
 		attri = [['inputsize','user','system','TT','elapsed','STS','text','rodata','data','bss']]
 		a.writerows(attri)

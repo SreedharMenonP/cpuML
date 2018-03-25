@@ -1,4 +1,4 @@
-with open("heaptimes.txt","r") as file1,open ("sizeheap.txt","r") as file2:
+with open("matrixtimes.txt","r") as file1,open ("sizematrix.txt","r") as file2:
 	import csv
 	import random
 	i=1
@@ -12,15 +12,15 @@ with open("heaptimes.txt","r") as file1,open ("sizeheap.txt","r") as file2:
 				list2.append(int(splitline[1]))
 	#print(list2)
 	file2.close()
-	with open('data.csv', 'a',newline='') as fp:
+	with open('data3.csv', 'a',newline='') as fp:
 		a = csv.writer(fp,delimiter=",")
 		attri = [['inputsize','user','system','TT','elapsed','STS','text','rodata','data','bss']]
 		a.writerows(attri)
 		for line in file1:
-			if i==(1 + 3*j):
+			if i==(1 + 4*j):
 				row1 = line.split();
 				j=j+1
-			elif i==(2 + 3*k):
+			elif i==(3 + 4*k):
 				time = line.split(" ")
 				time_0=time[0].split("user",1)[0]
 				time_1=time[1].split("system",1)[0]
